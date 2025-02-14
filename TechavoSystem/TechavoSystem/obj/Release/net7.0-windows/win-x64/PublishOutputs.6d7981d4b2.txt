@@ -1,0 +1,2 @@
+C:\Users\Techavo New PC\Downloads\DesktopAPP (1)\DesktopAPP\DesktopAPP\ComReadWriteTest\TechavoSystem\TechavoSystem\bin\Release\net7.0-windows\publish\win-x64\TechavoSystem.pdb
+C:\Users\Techavo New PC\Downloads\DesktopAPP (1)\DesktopAPP\DesktopAPP\ComReadWriteTest\TechavoSystem\TechavoSystem\bin\Release\net7.0-windows\publish\win-x64\TechavoSystem.exe

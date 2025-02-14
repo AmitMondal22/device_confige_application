@@ -1,0 +1,116 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Techavo New PC\\Downloads\\DesktopAPP (1)\\DesktopAPP\\DesktopAPP\\ComReadWriteTest\\TechavoSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{74AB7A8B-AD5D-4E07-86DB-1487E9FCB8C1}|TechavoSystem\\TechavoSystem.csproj|c:\\users\\techavo new pc\\downloads\\desktopapp (1)\\desktopapp\\desktopapp\\comreadwritetest\\techavosystem\\techavosystem\\mdiparentdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74AB7A8B-AD5D-4E07-86DB-1487E9FCB8C1}|TechavoSystem\\TechavoSystem.csproj|solutionrelative:techavosystem\\mdiparentdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74AB7A8B-AD5D-4E07-86DB-1487E9FCB8C1}|TechavoSystem\\TechavoSystem.csproj|c:\\users\\techavo new pc\\downloads\\desktopapp (1)\\desktopapp\\desktopapp\\comreadwritetest\\techavosystem\\techavosystem\\logindetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74AB7A8B-AD5D-4E07-86DB-1487E9FCB8C1}|TechavoSystem\\TechavoSystem.csproj|solutionrelative:techavosystem\\logindetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74AB7A8B-AD5D-4E07-86DB-1487E9FCB8C1}|TechavoSystem\\TechavoSystem.csproj|c:\\users\\techavo new pc\\downloads\\desktopapp (1)\\desktopapp\\desktopapp\\comreadwritetest\\techavosystem\\techavosystem\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74AB7A8B-AD5D-4E07-86DB-1487E9FCB8C1}|TechavoSystem\\TechavoSystem.csproj|solutionrelative:techavosystem\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74AB7A8B-AD5D-4E07-86DB-1487E9FCB8C1}|TechavoSystem\\TechavoSystem.csproj|C:\\Users\\Techavo New PC\\Downloads\\DesktopAPP (1)\\DesktopAPP\\DesktopAPP\\ComReadWriteTest\\TechavoSystem\\techavosystem\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{74AB7A8B-AD5D-4E07-86DB-1487E9FCB8C1}|TechavoSystem\\TechavoSystem.csproj|solutionrelative:techavosystem\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74AB7A8B-AD5D-4E07-86DB-1487E9FCB8C1}|TechavoSystem\\TechavoSystem.csproj|c:\\users\\techavo new pc\\downloads\\desktopapp (1)\\desktopapp\\desktopapp\\comreadwritetest\\techavosystem\\techavosystem\\mdiparentdashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74AB7A8B-AD5D-4E07-86DB-1487E9FCB8C1}|TechavoSystem\\TechavoSystem.csproj|solutionrelative:techavosystem\\mdiparentdashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74AB7A8B-AD5D-4E07-86DB-1487E9FCB8C1}|TechavoSystem\\TechavoSystem.csproj|C:\\Users\\Techavo New PC\\Downloads\\DesktopAPP (1)\\DesktopAPP\\DesktopAPP\\ComReadWriteTest\\TechavoSystem\\techavosystem\\mdiparentdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{74AB7A8B-AD5D-4E07-86DB-1487E9FCB8C1}|TechavoSystem\\TechavoSystem.csproj|solutionrelative:techavosystem\\mdiparentdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MDIParentDashboard.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Techavo New PC\\Downloads\\DesktopAPP (1)\\DesktopAPP\\DesktopAPP\\ComReadWriteTest\\TechavoSystem\\TechavoSystem\\MDIParentDashboard.Designer.cs",
+              "RelativeDocumentMoniker": "TechavoSystem\\MDIParentDashboard.Designer.cs",
+              "ToolTip": "C:\\Users\\Techavo New PC\\Downloads\\DesktopAPP (1)\\DesktopAPP\\DesktopAPP\\ComReadWriteTest\\TechavoSystem\\TechavoSystem\\MDIParentDashboard.Designer.cs",
+              "RelativeToolTip": "TechavoSystem\\MDIParentDashboard.Designer.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAABYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T10:06:26.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MDIParentDashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Techavo New PC\\Downloads\\DesktopAPP (1)\\DesktopAPP\\DesktopAPP\\ComReadWriteTest\\TechavoSystem\\TechavoSystem\\MDIParentDashboard.cs",
+              "RelativeDocumentMoniker": "TechavoSystem\\MDIParentDashboard.cs",
+              "ToolTip": "C:\\Users\\Techavo New PC\\Downloads\\DesktopAPP (1)\\DesktopAPP\\DesktopAPP\\ComReadWriteTest\\TechavoSystem\\TechavoSystem\\MDIParentDashboard.cs [Design]",
+              "RelativeToolTip": "TechavoSystem\\MDIParentDashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T10:06:26.909Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MDIParentDashboard.cs",
+              "DocumentMoniker": "C:\\Users\\Techavo New PC\\Downloads\\DesktopAPP (1)\\DesktopAPP\\DesktopAPP\\ComReadWriteTest\\TechavoSystem\\TechavoSystem\\MDIParentDashboard.cs",
+              "RelativeDocumentMoniker": "TechavoSystem\\MDIParentDashboard.cs",
+              "ToolTip": "C:\\Users\\Techavo New PC\\Downloads\\DesktopAPP (1)\\DesktopAPP\\DesktopAPP\\ComReadWriteTest\\TechavoSystem\\TechavoSystem\\MDIParentDashboard.cs",
+              "RelativeToolTip": "TechavoSystem\\MDIParentDashboard.cs",
+              "ViewState": "AgIAADAHAAAAAAAAAAAUwAUHAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T10:06:26.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginDetails.cs",
+              "DocumentMoniker": "C:\\Users\\Techavo New PC\\Downloads\\DesktopAPP (1)\\DesktopAPP\\DesktopAPP\\ComReadWriteTest\\TechavoSystem\\TechavoSystem\\LoginDetails.cs",
+              "RelativeDocumentMoniker": "TechavoSystem\\LoginDetails.cs",
+              "ToolTip": "C:\\Users\\Techavo New PC\\Downloads\\DesktopAPP (1)\\DesktopAPP\\DesktopAPP\\ComReadWriteTest\\TechavoSystem\\TechavoSystem\\LoginDetails.cs",
+              "RelativeToolTip": "TechavoSystem\\LoginDetails.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T10:06:26.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\Techavo New PC\\Downloads\\DesktopAPP (1)\\DesktopAPP\\DesktopAPP\\ComReadWriteTest\\TechavoSystem\\TechavoSystem\\Login.cs",
+              "RelativeDocumentMoniker": "TechavoSystem\\Login.cs",
+              "ToolTip": "C:\\Users\\Techavo New PC\\Downloads\\DesktopAPP (1)\\DesktopAPP\\DesktopAPP\\ComReadWriteTest\\TechavoSystem\\TechavoSystem\\Login.cs",
+              "RelativeToolTip": "TechavoSystem\\Login.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T10:06:26.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Techavo New PC\\Downloads\\DesktopAPP (1)\\DesktopAPP\\DesktopAPP\\ComReadWriteTest\\TechavoSystem\\TechavoSystem\\Login.cs",
+              "RelativeDocumentMoniker": "TechavoSystem\\Login.cs",
+              "ToolTip": "D:\\dotNetAPP\\DesktopAPP\\DesktopAPP\\ComReadWriteTest\\TechavoSystem\\TechavoSystem\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T10:06:29.122Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

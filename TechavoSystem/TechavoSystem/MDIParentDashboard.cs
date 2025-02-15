@@ -900,10 +900,6 @@ namespace TechavoSystem
         {
             try
             {
-                if (lblError.Text.Length > 0)
-                {
-                    return;
-                }
                 clearError();
                 if (cmbDISelectChannel.SelectedIndex == -1)
                     MessageBox.Show("Please select channel first");

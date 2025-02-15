@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechavoSystem", "TechavoSystem\TechavoSystem.csproj", "{74AB7A8B-AD5D-4E07-86DB-1487E9FCB8C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechavoSystem", "TechavoSystem\TechavoSystem.csproj", "{74AB7A8B-AD5D-4E07-86DB-1487E9FCB8C1}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Techavo", "Techavo\Techavo.vdproj", "{57E4ECBA-BA78-49CA-830D-A7FA85C3E1BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,8 @@ Global
 		{74AB7A8B-AD5D-4E07-86DB-1487E9FCB8C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74AB7A8B-AD5D-4E07-86DB-1487E9FCB8C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74AB7A8B-AD5D-4E07-86DB-1487E9FCB8C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57E4ECBA-BA78-49CA-830D-A7FA85C3E1BA}.Debug|Any CPU.ActiveCfg = Debug
+		{57E4ECBA-BA78-49CA-830D-A7FA85C3E1BA}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

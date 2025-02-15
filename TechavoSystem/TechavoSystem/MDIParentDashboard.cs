@@ -836,6 +836,10 @@ namespace TechavoSystem
         {
             try
             {
+                if (lblError.Text.Length > 0)
+                {
+                    return;
+                }
                 string sendData = CreateCommaSeparatedAI();
                 pbProcessing.Value = 0;
                 lblProgressPercent.Text = "0%";
@@ -896,6 +900,10 @@ namespace TechavoSystem
         {
             try
             {
+                if (lblError.Text.Length > 0)
+                {
+                    return;
+                }
                 clearError();
                 if (cmbDISelectChannel.SelectedIndex == -1)
                     MessageBox.Show("Please select channel first");
@@ -921,6 +929,10 @@ namespace TechavoSystem
         {
             try
             {
+                if (lblError.Text.Length > 0)
+                {
+                    return;
+                }
                 string sendData = CreateCommaSeparatedDI();
                 pbProcessing.Value = 0;
                 lblProgressPercent.Text = "0";
@@ -1007,6 +1019,10 @@ namespace TechavoSystem
         {
             try
             {
+                if (lblError.Text.Length > 0)
+                {
+                    return;
+                }
                 string sendData = CreateCommaSeparatedDO();
                 pbProcessing.Value = 0;
                 lblProgressPercent.Text = "0%";
@@ -1091,6 +1107,10 @@ namespace TechavoSystem
         {
             try
             {
+                if (lblError.Text.Length > 0)
+                {
+                    return;
+                }
                 string sendData = CreateCommaSeparatedPulse();
                 pbProcessing.Value = 0;
                 lblProgressPercent.Text = "0%";
@@ -1176,6 +1196,10 @@ namespace TechavoSystem
         {
             try
             {
+                if (lblError.Text.Length > 0)
+                {
+                    return;
+                }
                 string sendData = CreateCommaSeparatedUser();
                 pbProcessing.Value = 0;
                 lblProgressPercent.Text = "0%";

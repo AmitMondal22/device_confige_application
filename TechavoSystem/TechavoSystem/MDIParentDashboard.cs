@@ -69,6 +69,9 @@ namespace TechavoSystem
             txtMasterSlaveId.Leave += TxtModbusSlaveId_Leave;
             txtMasterPollingInterval.Leave += NumericCheck;
             txtMasterTimeout.Leave += NumericCheck;
+            txtBrokerPort.Leave += NumericCheck;
+            txtServerPort.Leave += NumericCheck;
+            txtIP2ServerPort.Leave += NumericCheck;
             #endregion
         }
 
@@ -463,7 +466,7 @@ namespace TechavoSystem
                     {
                         stringBuffer = newData.Replace("\r\n", "").Trim(); // Append new data
                         packetStarted = true;
-                        Thread.Sleep(500);
+                        Thread.Sleep(100);
                     }
                     else if (newData.Contains("#") && (packetStarted == true))
                     {
@@ -640,7 +643,8 @@ namespace TechavoSystem
                 return;
             if (!textBox.Text.Contains(":"))
             {
-                MessageBox.Show("Time format should be HH:MM");
+                //MessageBox.Show("Time format should be HH:MM");
+                errorHandle("Time format should be HH:MM for the field " + textBox.Name.Substring(3));
                 textBox.Text = string.Empty;
             }
             else
@@ -659,7 +663,8 @@ namespace TechavoSystem
                     bool successMin = int.TryParse(hourMin[1], out minute);
                     if (!successHour || !successMin || hour > 23 || minute > 59)
                     {
-                        MessageBox.Show("Invalid Time");
+                        //MessageBox.Show("Invalid Time");
+                        errorHandle("Invalid Time for the field " + textBox.Name.Substring(3));
                         textBox.Text = string.Empty;
                     }
                 }
@@ -673,8 +678,13 @@ namespace TechavoSystem
             bool success = long.TryParse(textBox.Text, out value);
             if (!success)
             {
-                MessageBox.Show("Please enter numeric value");
+                errorHandle("Please enter numeric value for the field " + textBox.Name.Substring(3));
+                //MessageBox.Show("Please enter numeric value");
                 textBox.Text = string.Empty;
+            }
+            else
+            {
+                clearError();
             }
         }
         private void DecimalChecker(TextBox textBox)
@@ -685,7 +695,8 @@ namespace TechavoSystem
             bool success = decimal.TryParse(textBox.Text, out value);
             if (!success)
             {
-                MessageBox.Show("Please enter decimal value");
+                errorHandle("Please enter decimal value for the field " + textBox.Name.Substring(3));
+                //MessageBox.Show("Please enter decimal value");
                 textBox.Text = string.Empty;
             }
         }
@@ -800,6 +811,7 @@ namespace TechavoSystem
         {
             try
             {
+                clearError();
                 if (cmbSelectChannel.SelectedIndex == -1)
                     MessageBox.Show("Please select channel first");
                 if (!port.IsOpen)
@@ -883,6 +895,7 @@ namespace TechavoSystem
         {
             try
             {
+                clearError();
                 if (cmbDISelectChannel.SelectedIndex == -1)
                     MessageBox.Show("Please select channel first");
                 if (!port.IsOpen)
@@ -969,6 +982,7 @@ namespace TechavoSystem
         {
             try
             {
+                clearError();
                 if (cmbDOSelectChannel.SelectedIndex == -1)
                     MessageBox.Show("Please select channel first");
                 if (!port.IsOpen)
@@ -1054,6 +1068,7 @@ namespace TechavoSystem
         {
             try
             {
+                clearError();
                 if (!port.IsOpen)
                 {
                     port.Open();
@@ -1134,6 +1149,7 @@ namespace TechavoSystem
         {
             try
             {
+                clearError();
                 if (cmbUserIndex.SelectedIndex == -1)
                 {
                     MessageBox.Show("Please select User Index first");
@@ -1232,10 +1248,23 @@ namespace TechavoSystem
         }
         #endregion
         #region General
+        private void errorHandle(string msg)
+        {
+            lblError.Visible = true;
+            lblErrorDetails.Visible = true;
+            lblError.Text = msg;
+        }
+        private void clearError()
+        {
+            lblError.Visible = false;
+            lblErrorDetails.Visible = false;
+            lblError.Text = string.Empty;
+        }
         private void btnGeneralReadMemory_Click(object sender, EventArgs e)
         {
             try
             {
+                clearError();
                 if (!port.IsOpen)
                 {
                     port.Open();
@@ -1257,6 +1286,10 @@ namespace TechavoSystem
         {
             try
             {
+                if(lblError.Text.Length > 0)
+                {
+                    return;
+                }
                 string sendData = CreateCommaSeparatedGeneral();
                 pbProcessing.Value = 0;
                 lblProgressPercent.Text = "0%";
@@ -1358,6 +1391,7 @@ namespace TechavoSystem
         {
             try
             {
+                clearError();
                 if (!port.IsOpen)
                 {
                     port.Open();
@@ -1391,6 +1425,10 @@ namespace TechavoSystem
         {
             try
             {
+                if (lblError.Text.Length > 0)
+                {
+                    return;
+                }
                 string sendData = CreateCommaSeparatedGPRS();
                 pbProcessing.Value = 0;
                 lblProgressPercent.Text = "0%";
@@ -1534,6 +1572,7 @@ namespace TechavoSystem
         {
             try
             {
+                clearError();
                 if (cmbModbusPortType.SelectedIndex == -1)
                 {
                     MessageBox.Show("Please select port type first.");
@@ -1560,6 +1599,10 @@ namespace TechavoSystem
         {
             try
             {
+                if (lblError.Text.Length > 0)
+                {
+                    return;
+                }
                 string sendData = CreateCommaSeparatedSlave();
                 pbProcessing.Value = 0;
                 lblProgressPercent.Text = "0%";
@@ -1622,6 +1665,10 @@ namespace TechavoSystem
         {
             try
             {
+                if (lblError.Text.Length > 0)
+                {
+                    return;
+                }
                 string sendData = CreateCommaSeparatedMasterSlaveConnection();
                 pbProcessing.Value = 0;
                 lblProgressPercent.Text = "0%";
@@ -1646,6 +1693,7 @@ namespace TechavoSystem
         {
             try
             {
+                clearError();
                 if (cmbMasterSlaveIndex.SelectedIndex == -1)
                 {
                     MessageBox.Show("Please select slave index first");
@@ -1754,6 +1802,10 @@ namespace TechavoSystem
         {
             try
             {
+                if (lblError.Text.Length > 0)
+                {
+                    return;
+                }
                 int index = Convert.ToInt32(((Button)sender).Name.Substring(17));
                 string sendData = CreateCommaSeparatedRegisterConnection(index);
                 pbProcessing.Value = 0;
@@ -1777,6 +1829,7 @@ namespace TechavoSystem
         {
             try
             {
+                clearError();
                 int index = Convert.ToInt32(((Button)sender).Name.Substring(16)) - 1;
                 if (!port.IsOpen)
                 {

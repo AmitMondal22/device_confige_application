@@ -82,7 +82,8 @@ namespace TechavoSystem
             {
                 if (value < 1 || value > 255)
                 {
-                    MessageBox.Show("Please enter numeric value from 1 to 255");
+                    //MessageBox.Show("Please enter numeric value from 1 to 255");
+                    errorHandle("Please enter numeric value for the field " + ((TextBox)sender).Name.Substring(3));
                     ((TextBox)sender).Text = string.Empty;
                 }
             }
